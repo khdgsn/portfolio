@@ -1,7 +1,6 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: slategray;
     display: grid;
 }
 
@@ -11,7 +10,12 @@ body {
 }
 
 /* title */
-#title {
+#bar {
+    display: flex;
+    border-style: solid;
+}
+
+#bar title {
     width: 25%;
     border-style: solid;
     display: inline-block;
@@ -19,28 +23,26 @@ body {
 
 /* nav */
 .nav nav {
-    width: 50%;
-    display: inline-block;
     border-style: solid;
 }
 
 /* content */
 #about {
     width: 75%;
-    margin: auto;
+    margin: 10px auto;
     border-style: solid;
 }
 
 
 #experience {
     width: 75%;
-    margin: auto;
+    margin: 10px auto;
     border-style: solid;
 }
 
 #git {
     width: 75%;
-    margin: auto;
+    margin: 10px auto;
     border-style: solid;
 }
 
