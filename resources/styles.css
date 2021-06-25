@@ -78,6 +78,7 @@ p {
 footer {
     background-color: #f8f0fc;
     text-align: center;
+    line-height: 30px;
 }
 
 /* images */
@@ -101,4 +102,5 @@ footer {
     width: 240px;
     height: 300px;
     border-style: solid;
+    margin: 0px 650px;
 }
