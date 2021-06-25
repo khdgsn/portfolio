@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: slategray;
+    display: grid;
+}
+
+.container {
+    margin: 0px, 20px, 0px, 20px;
+    padding: 0px, 20px, 0px, 20px;
+}
+
+/* title */
+#title {
+    width: 25%;
+    border-style: solid;
+    display: inline-block;
+}
+
+/* nav */
+.nav nav {
+    width: 50%;
+    display: inline-block;
+    border-style: solid;
+}
+
+/* content */
+#about {
+    width: 75%;
+    margin: auto;
+    border-style: solid;
+}
+
+
+#experience {
+    width: 75%;
+    margin: auto;
+    border-style: solid;
+}
+
+#git {
+    width: 75%;
+    margin: auto;
+    border-style: solid;
+}
+
+p {
+    display: inline;
+}
+
+/* footer */
+footer {
+    text-align: center;
+}
+
+/* images */
+.img-container {
+    float: right;
+    border-style: solid;
+}
+#main {
+    width: 240px;
+    height: 400px;
+}
+
+#experience #screenshot {
+    width: 35rem;
+    height: 18rem;
+}
