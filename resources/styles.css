@@ -1,7 +1,14 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+/* main */
+
 body {
     margin: 0px;
     padding: 0px;
     display: grid;
+    font-family: 'Benne', serif;
 }
 
 
@@ -24,6 +31,7 @@ body {
 #title {
     width: 25%;
     display: inline;
+    font-family: 'Lora', serif;
 }
 
 
@@ -37,6 +45,7 @@ body {
 
 .nav-links {
     display: inline;
+    font-family: 'Lora', serif;
 }
 
 /* content */
