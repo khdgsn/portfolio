@@ -8,57 +8,61 @@
     </head>
 
     <body>
-        <header>
-            <div id="title">
-                <h1>How to contact me</h1>
-            </div>
-        </header>
+        <div id="bar-container">
+            <header>
+                <div id="title">
+                    <h1>Contact me</h1>
+                </div>
+            </header>
 
-        <div class="nav">
-            <nav>
-                <ul>
-                    <li class="nav-links"><a href="index.html">About me</a></li>
-                    <li class="nav-links"><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li class="nav-links"><a href="index.html">About me</a></li>
+                        <li class="nav-links"><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
         <div id="contact">
-            <h2>Contact me</h2>
+            <h2>How to...</h2>
                 <ul>
-                    <li>Linkd in</li>
+                    <li>LinkedIn</li>
                     <li>Discord</li>
-                </ul>>
+                </ul>
         </div>
 
-        <div>
+        <div id="form">
             <h2> Or submit a question</h2>
+        
+            <div>
+                <form action="action_page.php">
+        
+                    <label for="name">First and Last Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name..">
+        
+                    <label for="contact">Contact</label>
+                    <input type="text" id="contact" name="contact" placeholder="How to contact you..">
+        
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="usa">USA</option>
+                    </select>
+        
+                    <label for="subject">Question</label>
+                    <textarea id="subject" name="question" placeholder="Write something.." style="height:200px"></textarea>
+        
+                    <input type="submit" value="Submit">
+        
+                </form>
+            </div>
         </div>
-        <div class="container">
-            <form action="action_page.php">
-        
-                <label for="name">First and Last Name</label>
-                <input type="text" id="name" name="name" placeholder="Your name..">
-        
-                <label for="contact">Contact</label>
-                <input type="text" id="contact" name="contact" placeholder="How to contact you..">
-        
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="uk">United Kingdom</option>
-                    <option value="usa">USA</option>
-                </select>
-        
-                <label for="subject">Question</label>
-                <textarea id="subject" name="question" placeholder="Write something.." style="height:200px"></textarea>
-        
-                <input type="submit" value="Submit">
-        
-            </form>
 
-        <div class="img-container">
+        <div">
             <img id="second" src="resources/images/IMG_2714.JPG" alt="Kathryn Hodgson">
         </div>
 

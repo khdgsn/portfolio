@@ -4,32 +4,45 @@ body {
     display: grid;
 }
 
-.container {
-    margin: 0px, 20px, 0px, 20px;
-    padding: 0px, 20px, 0px, 20px;
-}
+
 
 /* title */
-#bar {
+#bar-container {
     display: flex;
+    justify-content: space-around;
     border-style: solid;
+    background-color: #f8f0fc;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #bar title {
-    width: 25%;
     border-style: solid;
-    display: inline-block;
 }
+
+#title {
+    width: 25%;
+    display: inline;
+}
+
+
 
 /* nav */
 .nav nav {
+    display: flex;
+    justify-content: space-between;
     border-style: solid;
+}
+
+.nav-links {
+    display: inline;
 }
 
 /* content */
 #about {
     width: 75%;
-    margin: 10px auto;
+    margin: 125px 188px 10px 188px;
     border-style: solid;
 }
 
@@ -50,8 +63,20 @@ p {
     display: inline;
 }
 
+#contact {
+    border-style: solid;
+    margin: 125px 188px 10px 188px;
+}
+
+#form {
+    width: 75%;
+    border: solid;
+    margin: 10px auto;
+}
+
 /* footer */
 footer {
+    background-color: #f8f0fc;
     text-align: center;
 }
 
@@ -60,6 +85,7 @@ footer {
     float: right;
     border-style: solid;
 }
+
 #main {
     width: 240px;
     height: 400px;
@@ -68,4 +94,11 @@ footer {
 #experience #screenshot {
     width: 35rem;
     height: 18rem;
+}
+
+#second {
+    display: inline;
+    width: 240px;
+    height: 300px;
+    border-style: solid;
 }
