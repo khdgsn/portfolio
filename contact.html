@@ -39,23 +39,25 @@
             <div>
                 <form action="action_page.php">
         
-                    <label for="name">First and Last Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your name..">
-        
-                    <label for="contact">Contact</label>
-                    <input type="text" id="contact" name="contact" placeholder="How to contact you..">
-        
-                    <label for="country">Country</label>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name...">
+                    <br>
+                    <label for="contact">Contact email:</label>
+                    <input type="text" id="contact" name="contact" placeholder="How to contact you...">
+                    <br>
+                    <label for="country">Continent:</label>
                     <select id="country" name="country">
                         <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="uk">United Kingdom</option>
-                        <option value="usa">USA</option>
+                        <option value="asia">Asia</option>
+                        <option value="europe">Europe</option>
+                        <option value="north">North America</option>
+                        <option value="south">South America</option>
+                        <option value="afria">Africa</option>
                     </select>
-        
-                    <label for="subject">Question</label>
-                    <textarea id="subject" name="question" placeholder="Write something.." style="height:200px"></textarea>
-        
+                    <br>
+                    <label for="subject">Question:</label>
+                    <textarea id="subject" name="question" placeholder="Write something..." style="height:200px"></textarea>
+                    <br>
                     <input type="submit" value="Submit">
         
                 </form>
