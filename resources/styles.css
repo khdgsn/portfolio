@@ -14,6 +14,7 @@ body {
 
 
 
+
 /* title */
 #bar-container {
     display: flex;
@@ -50,18 +51,34 @@ body {
 }
 
 /* content */
-#about {
+#about-container {
+    display: flex;
     width: 75%;
     margin: 125px 188px 10px 188px;
-    border-style: solid;
 }
 
-
-#experience {
+#experience-container {
+    display: flex;
     width: 75%;
     margin: 10px auto;
-    border-style: solid;
 }
+
+.h {
+    position: absolute;
+    z-index: -1;
+}
+
+#about-container .text {
+    margin: 75px 5px 5px 5px;
+    line-height: 32px;
+}
+
+#experience-container .text {
+    margin: 75px 5px 5px 5px;
+    line-height: 32px;
+}
+
+
 
 #git {
     width: 75%;
@@ -69,13 +86,13 @@ body {
     border-style: solid;
 }
 
-p {
-    display: inline;
-}
 
 #contact {
-    border-style: solid;
     margin: 125px 188px 10px 188px;
+}
+
+#contact li {
+    list-style-type: none;
 }
 
 #form {
@@ -84,27 +101,33 @@ p {
     margin: 10px auto;
 }
 
+/* form */
+
+
 /* footer */
 footer {
-    background-color: #f8f0fc;
+    display: inline;
     text-align: center;
     line-height: 30px;
 }
 
 /* images */
-.img-container {
-    float: right;
-    border-style: solid;
-}
 
 #main {
     width: 240px;
     height: 400px;
+    margin-top: 60px;
+    margin-left: 10px;
+    border-radius: 50px;
 }
 
-#experience #screenshot {
+#screenshot {
+    float: right;
     width: 35rem;
     height: 18rem;
+    margin-top: 100px;
+    margin-left: 10px;
+    padding-left: 20px;
 }
 
 #second {
@@ -113,4 +136,5 @@ footer {
     height: 300px;
     border-style: solid;
     margin: 0px 650px;
+    border-radius: 25px;
 }
