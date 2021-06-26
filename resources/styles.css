@@ -35,10 +35,14 @@ body {
 
 
 /* nav */
-.nav nav {
+.nav {
+    border-style: solid;
+    margin: 0px 75px 0px 75px;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
-    border-style: solid;
 }
 
 .nav-links {
@@ -82,7 +86,7 @@ body {
     border-style: solid;
 }
 
-#oakworth {
+#oakworth, #excursion {
     display: none;
 }
 
