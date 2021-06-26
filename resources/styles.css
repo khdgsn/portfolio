@@ -36,13 +36,14 @@ body {
 
 /* nav */
 .nav {
+    display: flex;
     border-style: solid;
-    margin: 0px 75px 0px 75px;
+    margin: 0px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
+    display: inline;
+    align-content: space-around;
 }
 
 .nav-links {
