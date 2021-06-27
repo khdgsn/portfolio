@@ -26,6 +26,11 @@ body {
     border-style: solid;
 }
 
+#main-title {
+    padding-left: 20px;
+    font-family: 'Lora', serif;
+}
+
 #title {
     width: 25%;
     display: inline;
@@ -35,20 +40,15 @@ body {
 
 
 /* nav */
-.nav {
+.nav-container {
     display: flex;
-    border-style: solid;
-    margin: 0px;
-}
-
-nav {
-    display: inline;
-    align-content: space-around;
+    padding-top: 10px;
 }
 
 .nav-links {
-    display: inline;
-    font-family: 'Lora', serif;
+      display: inline;
+      font-family: 'Lora', serif;
+      padding-right: 30px;
 }
 
 /* content */
