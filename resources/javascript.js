@@ -1,19 +1,20 @@
-/* this js works */
+/* title change */
 let changeText = document.getElementById('text-change');
 
 function colourChange() {
     changeText.style.color = 'white';
 }
 
-changeText.addEventListener('mouseover', colourChange)
+changeText.addEventListener("mouseover", colourChange)
+
 
 /* open and close list */
-let mommy = document.querySelector('#mom');
+let listContainer = document.querySelector('#list-container');
 
 
-if(mommy) {
+if(listContainer) {
 	// console.log(mommy);
-    mommy.addEventListener("click", doThis, false);
+    listContainer.addEventListener("click", doThis, false);
  }
 
 
