@@ -29,12 +29,14 @@ body {
 #main-title {
     padding-left: 20px;
     font-family: 'Lora', serif;
+    text-shadow: 2px 2px #c2c2c2;
 }
 
 #title {
     width: 25%;
     display: inline;
     font-family: 'Lora', serif;
+    text-shadow: 2px 2px #c2c2c2;
 }
 
 
@@ -49,7 +51,16 @@ body {
       display: inline;
       font-family: 'Lora', serif;
       padding-right: 30px;
+      text-decoration: none;
 }
+
+a:link {
+    text-decoration: none;
+  }
+
+a:active {
+    color: black;
+  }
 
 /* content */
 #about-container {
@@ -74,23 +85,30 @@ body {
     line-height: 32px;
 }
 
+#experience-container {
+    padding-top: 40px;
+}
+
 #experience-container .text {
     margin: 75px 5px 5px 5px;
     line-height: 32px;
 }
 
-
-
 #git {
     width: 75%;
     margin: 10px auto;
-    border-style: solid;
+    padding-top: 40px;
 }
 
-#oakworth, #excursion {
+#oakworth-1 {
+    display: none;
+} 
+#excursion-1 {
     display: none;
 }
-
+#mixed-1 {
+    display: none;
+}
 
 #contact {
     margin: 125px 188px 10px 188px;
@@ -112,6 +130,7 @@ form {
     border-radius: 50px;
     padding: 20px 20px 60px 20px;
 }
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -120,8 +139,9 @@ input[type=text], select, textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical
-  }
+    resize: vertical;
+}
+  
   
     /* Style the submit button */
 input[type=submit] {
@@ -146,7 +166,6 @@ footer {
 }
 
 /* images */
-
 #main {
     width: 240px;
     height: 400px;
@@ -168,6 +187,6 @@ footer {
     display: inline;
     width: 240px;
     height: 300px;
-    margin: 0px 650px;
+    margin: 0px 625px;
     border-radius: 25px;
 }
