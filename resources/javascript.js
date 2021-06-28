@@ -13,7 +13,7 @@ let listContainer = document.querySelector('#list-container');
 
 
 if(listContainer) {
-	// console.log(mommy);
+	// console.log(listContainer);
     listContainer.addEventListener("click", doThis, false);
  }
 
