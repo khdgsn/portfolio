@@ -7,6 +7,14 @@ function colourChange() {
 
 changeText.addEventListener("mouseover", colourChange)
 
+let changeText = document.getElementById('text-change-2');
+
+function colourChange() {
+    changeText.style.color = 'white';
+}
+
+changeText.addEventListener("mouseover", colourChange)
+
 
 /* open and close list */
 let listContainer = document.querySelector('#list-container');
