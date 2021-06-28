@@ -39,12 +39,12 @@
             <h2>Submit feedback or question:</h2>
         
             <div>
-                <form action="results.html" method="GET">
+                <form action="https://formspree.io/f/mayabezn" method="POST">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" placeholder="Your name...">
                     <br>                    
                     <label for="contact">Contact email:</label>
-                    <input type="text" id="email" name="contact" placeholder="Email address...">
+                    <input type="email" id="email" name="contact" placeholder="Email address..." required>
                     <br>                    
                     <label for="country">Continent:</label>
                     <select id="country" name="country">
@@ -57,10 +57,10 @@
                     </select>
                     <br>                    
                     <label for="subject">Feedback/ question:</label>
-                    <textarea id="subject" name="question" placeholder="Write something..." style="height:200px"></textarea>
+                    <textarea id="subject" name="question" placeholder="Write something..." style="height:200px" required></textarea>
                     <br>
                     <input type="submit" value="Submit">
-        
+
                 </form>
             </div>
         </div>
