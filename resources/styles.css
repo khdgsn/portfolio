@@ -22,15 +22,11 @@ body {
     width: 100%;
 }
 
-#bar title {
-    border-style: solid;
-}
-
 #main-title {
-    padding-left: 20px;
     font-family: 'Lora', serif;
     text-shadow: 2px 2px #c2c2c2;
 }
+
 
 #title {
     width: 25%;
@@ -65,13 +61,13 @@ a:active {
 /* content */
 #about-container {
     display: flex;
-    width: 75%;
-    margin: 125px 188px 10px 188px;
+    width: 70%;
+    margin: 125px 230px 10px 230px;
 }
 
 #experience-container {
     display: flex;
-    width: 75%;
+    width: 70%;
     margin: 10px auto;
 }
 
@@ -95,7 +91,7 @@ a:active {
 }
 
 #git {
-    width: 75%;
+    width: 70%;
     margin: 10px auto;
     padding-top: 40px;
 }
@@ -111,7 +107,9 @@ a:active {
 }
 
 #contact {
-    margin: 125px 188px 10px 188px;
+    width: 65%;
+    margin: auto;
+    padding-top: 120px;
 }
 
 #contact li {
@@ -120,7 +118,7 @@ a:active {
 
 /* form */
 #form {
-    width: 75%;
+    width: 65%;
     margin: 20px auto;
     padding: 10px;
 }
