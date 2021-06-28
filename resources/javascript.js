@@ -1,13 +1,5 @@
-/* title change */
+/* main-title change */
 let changeText = document.getElementById('text-change');
-
-function colourChange() {
-    changeText.style.color = 'white';
-}
-
-changeText.addEventListener("mouseover", colourChange)
-
-let changeText = document.getElementById('text-change-2');
 
 function colourChange() {
     changeText.style.color = 'white';
