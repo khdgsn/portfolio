@@ -189,3 +189,9 @@ footer {
     margin: 0px 625px;
     border-radius: 25px;
 }
+
+/* results */
+#results {
+    text-align: center;
+    padding: 200px;
+}
