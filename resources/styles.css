@@ -219,7 +219,7 @@ input[type=submit]:hover {
     /*main page */
     #about-container {
       width: 65%;
-      margin-left: 40px;
+      margin-left: 10px;
       border-style: solid;
       display: inline;
     
@@ -231,7 +231,7 @@ input[type=submit]:hover {
 
     #experience-container {
         width: 65%;
-        margin-left: 40px;
+        margin-left: 10px;
         border-style: solid;
         display: inline; 
       }
@@ -245,7 +245,7 @@ input[type=submit]:hover {
 
       #git {
           width: 65%;
-          margin-left: 40px;
+          margin-left: 10px;
       }
 
       /* footer */
