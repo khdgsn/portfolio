@@ -201,7 +201,6 @@ input[type=submit]:hover {
     }
     
     #main-title {
-        border-style: solid;
         width: auto;
         font-size: 12px;
         padding-top: 10px;
@@ -211,6 +210,16 @@ input[type=submit]:hover {
     #title {
         border-style: solid;
         width: auto;
+        font-size: 12px;
+    }
+
+    /* navigation */
+    .nav-container {
+        border-style: dotted;
+    }
+
+    .nav-links {
+        border-style: solid;
     }
     
     
