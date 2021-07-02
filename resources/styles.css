@@ -188,8 +188,9 @@ footer {
     border-radius: 25px;
 }
 
-/* results */
-#results {
-    text-align: center;
-    padding: 200px;
-}
+/* media querys */
+@media only screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  }
