@@ -52,12 +52,12 @@ body {
 
 a:link {
     text-decoration: none;
-    color: #856084;
+    color: #84E296;
   }
 
-a:active {
+a:visited {
     color: #54C03C;
-  }
+}
 
 /* content */
 #about-container {
@@ -163,7 +163,7 @@ input[type=submit]:hover {
     display: inline;
     text-align: center;
     line-height: 30px;
-    border-style: solid;
+    opacity: 0.6;
 }
 
 /* images */
@@ -171,7 +171,6 @@ input[type=submit]:hover {
     width: 240px;
     height: 400px;
     margin-top: 60px;
-    margin-left: 10px;
     border-radius: 50px;
 }
 
@@ -189,77 +188,122 @@ input[type=submit]:hover {
     height: 300px;
     margin: 0px 625px;
     border-radius: 25px;
-    border-style: solid;
 }
 
 /* media querys */
 @media only screen and (max-width: 480px) {
     /* nav bar */
     #bar-container {
-        border-style: solid;
-        width: auto;
+        width: 100%;
     }
     
     #main-title {
-        width: auto;
         font-size: 12px;
-        padding-top: 10px;
+        padding-top: 15px;
+
     }
     
-    
-    #title {
-        border-style: solid;
-        width: auto;
-        font-size: 12px;
-    }
 
     /* navigation */
     .nav-container {
-        border-style: dotted;
+        padding: 2px;
     }
 
     .nav-links {
-        border-style: solid;
+        display: flex;
+        text-align: left;
     }
     
     
-
-    
     /*main page */
     #about-container {
-      width: 65%;
-      margin-left: 10px;
-      border-style: solid;
+      width: 100%;
+      margin: 0px;
+      padding-top: 110px;
       display: inline;
     
     }
 
     #main {
-        margin-left: 140px;
+        margin-left: 100px;
     }
 
     #experience-container {
-        width: 65%;
-        margin-left: 10px;
-        border-style: solid;
+        width: 100%;
+        margin: 0px;
         display: inline; 
       }
   
       #screenshot {
           width: 400px;
           height: 200px;
-          margin: auto;
+          margin: 0px;
+          padding: 0px;
           
       }
 
       #git {
-          width: 65%;
-          margin-left: 10px;
+          width: 100%;
+          margin: 0px;
+          padding-top: 0px;
       }
 
-      /* footer */
-      .footer {
-          width: 50%;
+      /* contact page */
+      #contact {
+        width: 100%;
+        margin: 0px;
+        padding-top: 110px;
+        padding-left: 10px;
+        display: inline;
+    }
+
+    #title {
+        font-size: 12px;
+    }
+
+    #title h1 {
+        padding-top: 15px;
+    }
+
+    #form {
+        width: 90%;
+        margin: 0px;
+        padding: 15px;
+    }
+
+    #second {
+        margin: 10px;
+        padding: 50px;
+        margin-left: 20px;
+        border-radius: 25px;
+    }
+
+
+  /* footer */
+  .footer {
+      display: flex;
+      margin-left: 110px;
+      width: 50%;
+  }
+  }
+
+/* 
+  @media only screen and (max-width: 1464px) {
+    #experience-container {
+        display: flex;
+        width: 70%;
+        margin-left: 230px;
+        border-style: solid;
+        display: inline; 
+      }
+  
+      #screenshot {
+          width: 600px;
+          height: 300px;
+          margin-left: 200px;
+          padding: 0px;
           border-style: solid;
+          
       }
   }
+  */
