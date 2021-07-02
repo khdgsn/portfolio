@@ -52,10 +52,11 @@ body {
 
 a:link {
     text-decoration: none;
+    color: #856084;
   }
 
 a:active {
-    color: black;
+    color: #54C03C;
   }
 
 /* content */
@@ -157,10 +158,12 @@ input[type=submit]:hover {
   }
 
 /* footer */
-footer {
+.footer {
+    width: auto;
     display: inline;
     text-align: center;
     line-height: 30px;
+    border-style: solid;
 }
 
 /* images */
@@ -186,11 +189,68 @@ footer {
     height: 300px;
     margin: 0px 625px;
     border-radius: 25px;
+    border-style: solid;
 }
 
 /* media querys */
 @media only screen and (max-width: 480px) {
-    body {
-      font-size: 12px;
+    /* nav bar */
+    #bar-container {
+        border-style: solid;
+        width: auto;
     }
+    
+    #main-title {
+        border-style: solid;
+        width: auto;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    
+    
+    #title {
+        border-style: solid;
+        width: auto;
+    }
+    
+    
+
+    
+    /*main page */
+    #about-container {
+      width: 65%;
+      margin-left: 40px;
+      border-style: solid;
+      display: inline;
+    
+    }
+
+    #main {
+        margin-left: 140px;
+    }
+
+    #experience-container {
+        width: 65%;
+        margin-left: 40px;
+        border-style: solid;
+        display: inline; 
+      }
+  
+      #screenshot {
+          width: 400px;
+          height: 200px;
+          margin: auto;
+          
+      }
+
+      #git {
+          width: 65%;
+          margin-left: 40px;
+      }
+
+      /* footer */
+      .footer {
+          width: 50%;
+          border-style: solid;
+      }
   }
