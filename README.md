@@ -16,3 +16,4 @@ List of issues that I am aware of and currently trying to fix:
 - Add small arrow to indicate more info in GitHub section
 - Adjust link colours
 - Play around with background colours
+- Update discord username
